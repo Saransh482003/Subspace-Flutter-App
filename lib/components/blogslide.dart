@@ -53,6 +53,7 @@ class _BlogSlideState extends State<BlogSlide> {
                       progressIndicatorBuilder:
                           (context, image, downloadProgress) =>
                               CircularProgressIndicator(
+                                color: Colors.black,
                                   value: downloadProgress.progress),
                       errorWidget: (context, image, error) =>
                           const Icon(Icons.error),
